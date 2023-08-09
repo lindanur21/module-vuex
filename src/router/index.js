@@ -4,6 +4,7 @@ import User from "../views/User.vue";
 import Berita from "../views/Berita.vue";
 import Product from "../views/Product.vue";
 import SingleProduct from "../views/SingleProduct.vue";
+import Category from "../views/Category.vue";
 
 const routes = [
     {
@@ -30,6 +31,11 @@ const routes = [
         path: "/produk/:id",
         name: "SingleProduct",
         component: SingleProduct,
+    },
+    {
+        path: "/kategori",
+        name: "Category",
+        component: Category,
     },
 ];
 

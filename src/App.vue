@@ -26,6 +26,9 @@
          <li>
             <router-link to="/produk">Product</router-link>
            </li>
+           <li>
+              <router-link to="/kategori">Category</router-link>
+             </li>
      
       </ul>
     </div>
