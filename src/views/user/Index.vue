@@ -1,6 +1,6 @@
 <template>
     <div class="container mx-auto sm:px-4">
-        <h1 class="text-center b">Fetch User</h1>
+        <h1 class="text-center b">Data User</h1>
         <table class="table-auto">
             <thead>
                 <tr>
@@ -18,7 +18,7 @@
                     <td class="border px-4 py-2">{{ user.name.firstname }} {{ user.name.lastname }}</td>
                     <td class="border px-4 py-2">{{ user.username }}</td>
                     <td class="border px-4 py-2">{{ user.email }}</td>
-                    <td class="border px-4 py-2">{{ user.address.street }} {{ user.address.city }} {{ user.address.number }} {{ user.address.zipcode }}</td>
+                    <td class="border px-4 py-2">{{ user.address.street }} - {{ user.address.city }} {{ user.address.number }} {{ user.address.zipcode }}</td>
                     <td class="border px-4 py-2">{{ user.phone }}</td>
                 </tr>
             </tbody>
